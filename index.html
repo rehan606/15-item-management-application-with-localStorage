@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>local Storage</title>
+        <!-- FontAwesome CDN  -->
+        <script src="https://kit.fontawesome.com/83ad900154.js" crossorigin="anonymous"></script>
+
+        <!-- Tailwind And DaisyUI  -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+    </head>
+    <body>
+        <section class="bg-green-400 py-4">
+            <div class="container w-11/12 mx-auto ">
+                <div class=" bg-green-400 ">
+                    
+                    <div class=" join flex justify-center ">
+                        <input id="item-name" type="text" placeholder="Item Name" class="input join-item input-bordered w-full max-w-xs" />
+                        <input id="item-quantity" type="number" placeholder="Quantity" class="input join-item input-bordered w-36 max-w-xs" />
+                        <button onclick="additem()" class="btn join-item bg-green-200  rounded-r-full ">Add Item</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-green-300 pb-4">
+            <div class="container w-11/12 mx-auto h-screen">
+                <h2 class="text-center py-2 text-xl font-semibold  border-b border-green-200">Item Management Application</h2>
+                <div class="  bg-green-300 ">
+                    <div class="flex justify-around items-center border-b bg-green-200 border-green-100 py-4 px-4">
+                        <p class="text-lg font-semibold w-1/12">Serial</p>
+                        <p class="text-lg font-semibold w-5/12">Item Name</p>
+                        <p class="text-lg font-semibold w-4/12">Quantity</p>
+                        <p class="text-lg font-semibold w-2/12 text-right">Action</p>
+                    </div>
+
+                    <div id="items-container" class="">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
