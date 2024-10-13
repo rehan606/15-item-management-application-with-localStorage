@@ -4,7 +4,8 @@
 
 
 ## Project Live Link: 
-<a align="center" href="https://item-management-application.netlify.app/">Click Here and Visite This Project</a>
+<p align="center" href="https://item-management-application.netlify.app/"><a href="https://item-management-application.netlify.app/">Click Here and Visite This Project</a></p>
+
 
 
 ## Project Layout:
